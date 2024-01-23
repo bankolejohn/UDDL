@@ -35,4 +35,6 @@ jobs:
       run: |
         # You can now use the JAR files in the 'jar-artifacts/' directory
         # for your Maven build or any other necessary tasks.
-        mvn clean install
+        # mvn clean install
+        mvn clean install -e -X
+
