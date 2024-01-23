@@ -21,7 +21,7 @@ jobs:
         # url:  https://github.com/bankolejohn/uddl-query-3/actions/runs/7621124781/artifacts
         # path: jar-artifacts/
         repository: bankolejohn/uddl-query-3
-        token: ${{ secrets.GITHUB_TOKEN }}
+        github-token: ${{ secrets.GITHUB_TOKEN }}
         run-id: 7621124781
 
     - name: Set up JDK 17
